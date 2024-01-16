@@ -14,4 +14,4 @@ This is my Personal Portfolio website showcasing a diverse collection of project
 
 This website was inspired and created using resources from Rian's Youtube page here 👉🏽 [Bedimcode](https://www.youtube.com/@Bedimcode)
 
-[preview img](<assets/img/Screenshot 2024-01-16 at 03.52.28.png>)
+![website preview](<assets/img/Screenshot 2024-01-16 at 03.52.28.png>)
