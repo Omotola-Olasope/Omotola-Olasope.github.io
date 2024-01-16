@@ -1,3 +1,17 @@
-# Omotola Olasope - Data Maverick
+# Welcome to Omotola's Responsive Portfolio Website 
 
-Experienced Data Engineer with a strong foundation in data analysis and interpretation. Proven success in building and maintaining robust data pipelines, developing data models, and implementing effective data analysis solutions. Skilled in various technologies, including AWS, SQL, Python, Apache Airflow, R, Tableau, Google Sheets, and Excel. Eager to leverage data engineering expertise to solve complex problems and drive business value.
+I am a Data Engineer passionately committed to my personal mission of radiating success, inspiring others, and making a positive impact by dedicating myself to personal excellence and serving my community. Leveraging my key strengths in adaptability, problem-solving, and empathy, I continuously strive to uplift and empower those around me.
+
+This is my Personal Portfolio website showcasing a diverse collection of projects spanning Data Engineering, Data Analysis, and Web Development. Its characteristics include:
+
+- Responsive Portfolio Website Using HTML CSS & JavaScript
+- Contains animations when scrolling.
+- Smooth scrolling in each section.
+- Includes a dark & light theme.
+- Sending emails in the contact section.
+- Developed first with the Mobile First methodology, then for desktop.
+- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+
+This website was inspired and created using resources from Rian's Youtube page here 👉🏽 [Bedimcode](https://www.youtube.com/@Bedimcode)
+
+[preview img](<assets/img/Screenshot 2024-01-16 at 03.52.28.png>)

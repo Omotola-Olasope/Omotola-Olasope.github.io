@@ -1,379 +1,558 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Omotola Olasope's Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/photo-output.jpg" type="image/x-icon">
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Omotola Olasope's<br />
-						Portfolio</h1>
-						<p>
-							I am a passionate Data Engineer, driven by a strong desire to leverage the power of data for impactful insights and meaningful results. 
-							I aim to bridge the gap between data and decision-making, empowering organizations to thrive in a data-driven world.
-						</p>
-						<p>
-							With a background in Security Intelligence, Data Analytics, and Web Development, 
-							I possess a unique blend of skills that enables me to approach challenges from diverse angles, 
-							delivering comprehensive solutions that make a tangible difference.
-						</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">DATA MAVERICK</a>
-					</header>
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Projects</a></li>
-							<li><a href="https://github.com/Omotola-Olasope">Github</a></li>
-							<li><a href="https://www.linkedin.com/in/omotola-olasope/">LinkedIn</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="https://twitter.com/OmotolaOlasope" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="https://www.instagram.com/omotolaolasope/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="https://github.com/Omotola-Olasope" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+      <title>Responsive portfolio website Omotola Olasope</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo">
+               <span class="nav__logo-circle">OO</span>
+               <span class="nav__logo-name">Omotola Olasope.</span>
+            </a>
 
-				<!-- Main -->
-					<div id="main">
+            <div class="nav__menu" id="nav-menu">
+               <span class="nav__title">Menu</span>
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<span class="date"></span>
-									<h2><a href="https://github.com/Omotola-Olasope?tab=repositories">My GitHub Repository</a></h2>
-									<p>
-										Welcome to my GitHub repository showcasing a diverse collection of projects spanning Data Engineering, Data Analysis,
-										and Web Development!
-										
-										In this repository, you'll find a range of projects that demonstrate my skills and expertise in handling data, building
-										robust data pipelines, extracting meaningful insights, and creating dynamic web applications. Whether you're interested
-										in data manipulation, visualization, or creating interactive web interfaces, there's something here for you.
-									</p>
-								</header>
-								<a href="https://github.com/Omotola-Olasope?tab=repositories" class="image main"><img src="images/github-cover.jpg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="https://github.com/Omotola-Olasope?tab=repositories" class="button large">VIEW PROJECTS</a></li>
-								</ul>
-							</article>
+               <h3 class="nav__name">Omotola</h3>
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<span class="date">December 4, 2023</span>
-										<h2><a href="">Large-Scale On-Premise to Cloud Data Migration with AWS CloudFormation, File Gateway and CloudWatch Alarms</a></h2>
-									</header>
-									<a href="" class="image fit"><img
-											src="images/server.webp" alt="" /></a>
-									<p>
-										This project involved the successful migration of a large organization's on-premise data to the cloud. Leveraging the power of AWS CloudFormation, I created a secure and scalable infrastructure, including:
-										<ul>
-											<li>VPC Base: Defined the network infrastructure for deploying resources.</li>
-											<li>Windows Instance: Established an on-premise machine for file server access.</li>
-											<li>File Gateway: Facilitated seamless data transfer from the on-premise network.</li>
-											<li>NFS File Share: Received migrated data in the cloud.</li>
-											<li>CloudWatch Alarm: Triggered alerts for exceeding data transfer thresholds.</li>
-										</ul>
-									</p>
-									<ul class="actions special">
-										<li><a href="https://www.linkedin.com/in/omotola-olasope/" class="button">Contact Me</a></li>
-									</ul>
-								</article>
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="#home" class="nav__link active-link">Home</a>
+                  </li>
 
-								<article>
-									<header>
-										<span class="date">November 23, 2023</span>
-										<h2><a href="">Architect of Real-Time Financial Data Mastery: Building a Dynamic AWS Streaming Pipeline</a></h2>
-									</header>
-									<a href="" class="image fit"><img
-											src="images/SBD_physical_architecture_model.png" alt="" /></a>
-									<p>
-										Masterfully architecting a real-time financial data streaming pipeline on AWS, I transformed a Python script into a dynamic Lambda function, orchestrated by an IAM role with Admin privileges. 
-										This project encompasses the creation of a DynamoDB table, automated Lambda triggers with CloudWatch, and proactive monitoring via AWS SNS notifications. 
-										The visual centerpiece is an intricately designed architecture diagram, showcasing the seamless synergy of AWS services, presenting a testament to my adept navigation of complex ecosystems and dedication to precision in data engineering.
-									</p>
-									<ul class="actions special">
-										<li><a href="https://www.linkedin.com/in/omotola-olasope/" class="button">Contact Me</a></li>
-									</ul>
-								</article>
+                  <li class="nav__item">
+                     <a href="#about" class="nav__link">About Me</a>
+                  </li>
 
-								<article>
-									<header>
-										<span class="date">October 15, 2023</span>
-										<h2><a href="">Strategic Database Design and Schema Development for an Intelligence Organization</a></h2>
-									</header>
-									<a href="" class="image fit"><img
-											src="images/schema.png" alt="" /></a>
-									<p>
-										I spearheaded the end-to-end development of a robust intelligence organization database, architecting the schema from scratch. 
-										This involved meticulously designing interconnected tables, ensuring data integrity, and implementing the optimal normal form for both seamless accessibility and data security.
-									</p>
-									<ul class="actions special">
-										<li><a href="https://www.linkedin.com/in/omotola-olasope/" class="button">Contact Me</a></li>
-									</ul>
-								</article>
+                  <li class="nav__item">
+                     <a href="#projects" class="nav__link">Projects</a>
+                  </li>
 
-								<article>
-									<header>
-										<span class="date">October 4, 2023</span>
-										<h2><a href="https://main.dt30ld539uwl1.amplifyapp.com/">Implemented an AI-Powered Portfolio Website</a></h2>
-									</header>
-									<a href="" class="image fit"><img
-											src="images/NLP.jpg" alt="" /></a>
-									<p>
-										Leveraging Python and AWS, I developed a serverless portfolio website with integrated Natural Language Processing (NLP). 
-										This technology enables the website to automate personalized email responses by intelligently analyzing user messages. 
-										Reach out through the website, and experience intelligent interactions.
-									</p>
-									<ul class="actions special">
-										<li><a href="https://main.dt30ld539uwl1.amplifyapp.com/" class="button">Check Website</a></li>
-									</ul>
-								</article>
+                  <li class="nav__item">
+                     <a href="#contact" class="nav__link nav__link-button">Contact Me</a>
+                  </li>
+               </ul>
 
-								<article>
-									<header>
-										<span class="date">September 13, 2023</span>
-										<h2><a href="">Database Normalization</a></h2>
-									</header>
-									<a href="" class="image fit"><img
-											src="images/database_norm.jpg" alt="" /></a>
-									<p>
-										I transformed a denormalized database into Third Normal Form (3NF), resulting in a reduction in data storage and improvement in query response time.
-									</p>
-									<ul class="actions special">
-										<li><a href="https://www.linkedin.com/in/omotola-olasope/" class="button">Contact Me</a></li>
-									</ul>
-								</article>
+               <!-- Close button-->
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-line"></i>
+               </div>
+            </div>
 
-								<article>
-									<header>
-										<span class="date">August 24, 2023</span>
-										<h2><a href="">Genetic Code Validation</a></h2>
-									</header>
-									<a href="" class="image fit"><img
-											src="images/dna.jpg" alt="" /></a>
-									<p>
-										Using Python, I designed and implemented RNA code validation and complementary strand generation functions, reducing manual validation time and ensuring accuracy in identifying valid RNA codes.
-									</p>
-									<ul class="actions special">
-										<li><a href="https://www.linkedin.com/in/omotola-olasope/" class="button">Contact Me</a></li>
-									</ul>
-								</article>
+            <div class="nav__buttons">
+               <!-- Theme Button -->
+               <i class="ri-moon-line change-theme" id="theme-button"></i>
 
-								<article>
-									<header>
-										<span class="date">August 12, 2023</span>
-										<h2><a href="https://app.datacamp.com/workspace/w/ac48c460-4070-4169-9485-043350f4e1d1/edit">Designing a Bank Marketing Database Project</a></h2>
-									</header>
-									<a href="https://app.datacamp.com/workspace/w/ac48c460-4070-4169-9485-043350f4e1d1/edit" class="image fit"><img
-											src="images/bank_db" alt="" /></a>
-									<p>
-										In this notebook, I applied my data engineering skills to clean data and design a PostgreSQL database to store
-										information about marketing campaigns run by a bank.
-										
-										I modified values, added new features, and considered how data should be stored within a PostgreSQL database
-										efficiently and clearly.
-									</p>
-									<ul class="actions special">
-										<li><a href="https://app.datacamp.com/workspace/w/ac48c460-4070-4169-9485-043350f4e1d1/edit" class="button">View Project</a></li>
-									</ul>
-								</article>
+               <!-- Toggle button -->
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-4-line"></i>
+               </div>
+            </div>
+         </nav>
+      </header>
 
-								<article>
-									<header>
-										<span class="date">January 6, 2023</span>
-										<h2><a href="https://1drv.ms/x/s!AuCN5uxRFHNfiJBO_y_2SUTa3FbxrA?e=S4P1Ad">Excel Bike Sales Project</a></h2>
-									</header>
-									<a href="https://1drv.ms/x/s!AuCN5uxRFHNfiJBO_y_2SUTa3FbxrA?e=S4P1Ad" class="image fit"><img src="images/bike_sales_PIC.png" alt="" /></a>
-									<p>
-										In this project I went through the data cleaning process of a bike sales data and created pivot tables and a dashboard in Excel.
-									</p>
-									<ul class="actions special">
-										<li><a href="https://1drv.ms/x/s!AuCN5uxRFHNfiJBO_y_2SUTa3FbxrA?e=S4P1Ad" class="button">View Excel Dashboard</a></li>
-									</ul>
-								</article>
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <div class="home__container container grid">
+               <h1 class="home__name">
+                  Omotola Olasope
+               </h1>
 
-								<article>
-									<header>
-										<span class="date">December 17, 2022</span>
-										<h2><a href="https://github.com/Omotola-Olasope/DataCamp_Tree_Specie_Challenge/blob/main/DataCamp_Tree_Specie_Challenge.md">DataCamp #12DaysofData Street Trees in NYC Challenge</a></h2>
-									</header>
-									<a href="https://github.com/Omotola-Olasope/DataCamp_Tree_Specie_Challenge/blob/main/DataCamp_Tree_Specie_Challenge.md" class="image fit"><img src="images/Street_Trees.jpeg" alt="" /></a>
-									<p>
-										In this project, the city of New York needed to learn more ways to improve the quantity and quality of trees on the streets of Manhattan. 
-										I thus advised the planning department on which tree species are the best choice to plant using data provided. 
-										The project was part of the DataCamp series of competitions tagged #12DayofData aimed at challenging Data Enthusiasts to keep learning and demonstrating their data skills.
-									</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Omotola-Olasope/DataCamp_Tree_Specie_Challenge/blob/main/DataCamp_Tree_Specie_Challenge.md" class="button">VIEW PROJECT</a></li>
-									</ul>
-								</article>
-								
-								<article>
-									<header>
-										<span class="date">November 23, 2022</span>
-										<h2><a href="https://github.com/Omotola-Olasope/Mobile_Money_Case_Study/blob/main/mobile_money_case_study.md">Mobile Money Case Study With R</a></h2>
-									</header>
-									<a href="https://github.com/Omotola-Olasope/Mobile_Money_Case_Study/blob/main/mobile_money_case_study.md" class="image fit"><img
-											src="images/mm_caseStudy_image.jpg" alt="" /></a>
-									<p>
-										In this project, I worked on a Data Analysis case study created by <a href="https://github.com/mwangi-george/Data_Analysis_Case_Study">George Mwangi</a>.
-										I wrote a summary outlining key initial findings to be discussed by the Specialist Advisory Board for a
-										project on the use of Mobile Money services and the experiences of Mobile Money customers in three districts of Kenya.
-									</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Omotola-Olasope/Mobile_Money_Case_Study/blob/main/mobile_money_case_study.md" class="button">VIEW PROJECT</a></li>
-									</ul>
-								</article>
+               <div class="home__perfil">
+                  <div class="home__image">
+                     <img src="assets/img/IMG_9144.jpeg" alt="image" class="home__img">
+                     <div class="home__shadow"></div>
 
-								<article>
-									<header>
-										<span class="date"></span>
-										<h2><a href="https://public.tableau.com/app/profile/omotola.olasope">My Tableau Dashboards</a></h2>
-									</header>
-									<a href="https://public.tableau.com/app/profile/omotola.olasope" class="image fit"><img src="images/tableau.png"
-											alt="" /></a>
-									<p>View my tableau dashboards for projects</p>
-									<ul class="actions special">
-										<li><a href="https://public.tableau.com/app/profile/omotola.olasope" class="button">View Dashboards</a></li>
-									</ul>
-								</article>
+                     <img src="assets/img/curved-arrow.svg" alt="" class="home__arrow">
+                     <img src="assets/img/random-lines.svg" alt="" class="home__line">
 
-								<article>
-									<header>
-										<span class="date">May, 2022</span>
-										<h2><a href="https://github.com/Omotola-Olasope/ALX-T_UDACITY/tree/main/projects/01_fyyur/starter_code">Fy-yur: Artist Booking Site with Python</a></h2>
-									</header>
-									<a href="https://github.com/Omotola-Olasope/ALX-T_UDACITY/tree/main/projects/01_fyyur/starter_code" class="image fit"><img src="images/fyyur.jpeg" alt="" /></a>
-									<p>
-										Fy-yur is a musical venue and artist booking site that facilitates the discovery and bookings of shows between local performing artists and venues.
-										I designed and built out the data models to power the API endpoints for the Fyyur site by connecting to a PostgreSQL database for storing, querying, and creating information about artists and venues on Fyyur.
-									</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Omotola-Olasope/ALX-T_UDACITY/tree/main/projects/01_fyyur/starter_code" class="button">View Code</a></li>
-									</ul>
-								</article>
-							</section>
+                     <div class="geometric-box"></div>
+                  </div>
 
-						<!-- Footer -->
-							<!--<footer>
-								<div class="pagination">-->
-									<!--<a href="#" class="previous">Prev</a>-->
-									<!--<a href="#" class="page active">1</a>-->
-									<!--<a href="#" class="page">2</a>
-									<a href="#" class="page">3</a>
-									<span class="extra">&hellip;</span>
-									<a href="#" class="page">8</a>
-									<a href="#" class="page">9</a>
-									<a href="#" class="page">10</a>
-									<a href="#" class="next">Next</a>
-								</div>
-							</footer> -->
+                  <div class="home__social">
+                     <a href="https://www.linkedin.com/in/omotola-olasope/" target="_blank" class="home__social-link">
+                        <i class="ri-linkedin-box-line"></i>
+                     </a>
 
-					</div>
+                     <a href="https://github.com/Omotola-Olasope/" target="_blank" class="home__social-link">
+                        <i class="ri-github-line"></i>
+                     </a>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSf-UB_G6BZafHH0o3c5W41bMfVAQUAI7c5jFabGMzbX__qcZQ/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="entry.570244458" id="entry.570244458" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="entry.999874477" id="entry.999874477" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="entry.770136068" id="entry.770136068" rows="3"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Me A Message" /></li>
-								</ul>
-							</form>
+                     <a href="https://www.twitter.com/OmotolaOlasope" target="_blank" class="home__social-link">
+                        <i class="ri-twitter-line"></i>
+                     </a>
 
-							<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-						</section>
-						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>Lagos, Nigeria</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="">(+234)8167259681</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="">tola.olasope@gmail.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://twitter.com/OmotolaOlasope" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="https://www.instagram.com/omotolaolasope/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="https://github.com/Omotola-Olasope" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-							<section>
-								<div>
-									<h4>Mission Statement</h4>
-									<p>
-										"To radiate success, inspire others, and make a positive impact by dedicating myself to personal excellence and serving my community."
-									</p>
-								</div>
-							</section>
-						</section>
-					</footer>
+                     <a href="https://www.instagram.com/omotolaolasope/" target="_blank" class="home__social-link">
+                        <i class="ri-instagram-line"></i>
+                     </a>
+                  </div>
+               </div>
 
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; OmotolaOlasope</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
+               <div class="home__info">
+                  <p class="home__description">
+                     <b>Data Engineer</b> equipped with an expertise in building and 
+                     managing infrastructure for data movement and its strategic usage. 
+                     I build secure solutions for business growth.
+                  </p>
 
-			</div>
+                  <a href="#about" class="home__scroll">
+                     <div class="home__scroll-box">
+                        <i class="ri-arrow-down-s-line"></i>
+                     </div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script type="text/javascript">var submitted=false;</script>
-			<script type="text/javascript">
-				$('#gform').on('submit', function(e) {
-					$('#gform *').fadeOut(2000);
-					$('#gform').prepend('Your submission has been processed...');
-				});
-			</script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+                     <span class="home__scroll-text">Scroll Down</span>
+                  </a>
+               </div>
+            </div>
+         </section>
 
-	</body>
+         <!--==================== ABOUT ====================-->
+         <section class="about section" id="about">
+            <div class="about__container container grid">
+               <h2 class="section__title-1">
+                  <span>About Me.</span>
+               </h2>
+
+               <div class="about__perfil">
+                  <div class="about__image">
+                     <img src="assets/img/IMG_9985.jpeg" alt="image" class="about__img">
+
+                     <div class="about__shadow"></div>
+
+                     <div class="geometric-box"></div>
+                     <img src="assets/img/random-lines.svg" alt="" class="about__line">
+                     <div class="about__box"></div>
+                  </div>
+               </div>
+
+               <div class="about__info">
+                  <p class="about__description">
+                     With a fervent dedication to overseeing <b>databases</b>, 
+                     crafting <b>data models</b>, and orchestrating the 
+                     construction and upkeep of <b>data pipelines</b>, 
+                     I bring extensive expertise cultivated over years 
+                     in the realms of Security Intelligence, Data Analytics, and Finance.
+                  </p>
+
+                  <ul class="about__list">
+                     <li class="about__item">
+                        <b>My Skills Are:</b> SQL, Amazon Web Services, Python, 
+                        Relational Database Management Sytems(MySQL, PostgreSQL, SQLServer), 
+                        NoSQL databases, Apache AirFlow, Versioning tools (Git, Github), 
+                        Cloud Technology & Container Platform (Microsoft Azure, Google Cloud, Kubernetes, Docker).
+                     </li>
+                  </ul>
+
+                  <div class="about__buttons">
+                     <a href="#contact" class="button">
+                        <i class="ri-send-plane-line"></i> Contact Me
+                     </a>
+
+                     <a href="https://www.linkedin.com/in/omotola-olasope/" target="_blank" class="button__ghost">
+                        <i class="ri-linkedin-box-line"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== SERVICES ====================-->
+         <section class="services section">
+            <h2 class="section__title-2">
+               <span>Services.</span>
+            </h2>
+
+            <div class="services__container container grid">
+               <article class="services__card">
+                  <div class="services__border"></div>
+
+                  <div class="services__content">
+                     <div class="services__icon">
+                        <div class="services__box"></div>
+                        <i class="ri-settings-3-line"></i>
+                     </div>
+
+                     <h2 class="services__title">Data Engineering</h2>
+
+                     <p class="services__description">
+                        Plan, design, and monitor robust and scalable data 
+                        architectures/solutions to facilitate 
+                        efficient storage, processing, 
+                        and movement of data.
+                     </p>
+                  </div>
+               </article>
+
+               <article class="services__card">
+                  <div class="services__border"></div>
+
+                  <div class="services__content">
+                     <div class="services__icon">
+                        <div class="services__box"></div>
+                        <i class="ri-database-2-line"></i>
+                     </div>
+
+                     <h2 class="services__title">Database Management</h2>
+
+                     <p class="services__description">
+                        Administer and optimize databases, 
+                        ensuring they are well-tuned for performance, 
+                        reliability, and security.
+                     </p>
+                  </div>
+               </article>
+
+               <article class="services__card">
+                  <div class="services__border"></div>
+
+                  <div class="services__content">
+                     <div class="services__icon">
+                        <div class="services__box"></div>
+                        <i class="ri-bar-chart-2-line"></i>
+                     </div>
+
+                     <h2 class="services__title">Data Modeling</h2>
+
+                     <p class="services__description">
+                        Design and implement data models 
+                        to organize and structure data, 
+                        ensuring compatibility with 
+                        analytical and reporting needs.
+                     </p>
+                  </div>
+               </article>
+            </div>
+         </section>
+
+         <!--==================== PROJECTS ====================-->
+         <section class="projects section" id="projects">
+            <h2 class="section__title-1">
+               <span>Projects.</span>
+            </h2>
+
+            <div class="projects__container container grid">
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="assets/img/server.webp" alt="image" class="projects__img">
+
+                     <a href="#" class="projects__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a>
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">Data Migration</h3>
+                     <h2 class="projects__title">Large-Scale On-Premise to Cloud Data Migration with Aws Cloudformation, File Gateway and Cloudwatch Alarms</h2>
+
+                     <p class="projects__description">
+                        This project involved the successful migration of a large organization's on-premise data to the cloud. 
+                        Leveraging the power of <b>AWS CloudFormation</b>, I created a secure and scalable infrastructure, including:
+                        VPC Base: Defined the network infrastructure for deploying resources.
+                        Windows Instance: Established an on-premise machine for file server access.
+                        File Gateway: Facilitated seamless data transfer from the on-premise network.
+                        NFS File Share: Received migrated data in the cloud.
+                        CloudWatch Alarm: Triggered alerts for exceeding data transfer thresholds.
+                     </p>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="#" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i> Contact Me
+                     </a>
+                  </div>
+               </article>
+
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="assets/img/schema.png" alt="image" class="projects__img">
+
+                     <a href="#" class="projects__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a>
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">Database/Schema Design</h3>
+                     <h2 class="projects__title">Strategic Database Design And Schema Development For An Intelligence Organization</h2>
+
+                     <p class="projects__description">
+                        I led the comprehensive development of an intelligence organization database,
+                        meticulously crafting an intricately connected schema, weaving together tables for optimal data organization. 
+                        My focus extended beyond mere structural design — I prioritized data integrity, 
+                        strategically normalizing the schema to enhance both accessibility and security. 
+                        This initiative resulted in a resilient and efficient system that seamlessly integrates 
+                        Online Transaction Processing (OLTP) for real-time data management and 
+                        Online Analytical Processing (OLAP) for in-depth analysis and reporting.
+                     </p>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="#" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i> View
+                     </a>
+                  </div>
+               </article>
+
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="assets/img/SBD_physical_architecture_model.png" alt="image" class="projects__img">
+
+                     <a href="#" class="projects__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a>
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">Streaming Pipeline</h3>
+                     <h2 class="projects__title">Dynamic Real-Time Streaming Pipeline Architecture</h2>
+
+                     <p class="projects__description">
+                        In this project, I restructured a Python script into a dynamic Lambda function, 
+                        leveraging AWS for the development of a real-time financial data streaming pipeline. 
+                        The orchestration is handled through an IAM role endowed with Admin privileges, 
+                        ensuring seamless execution. Key components include the establishment of 
+                        a DynamoDB table for data storage, the implementation of automated Lambda triggers 
+                        using CloudWatch, and the incorporation of proactive monitoring through AWS SNS notifications. 
+                        This optimized architecture on AWS enhances the efficiency and responsiveness 
+                        of the financial data streaming process.
+                     </p>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="#" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i> Contact Me
+                     </a>
+                  </div>
+               </article>
+
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="assets/img/database_norm.jpg" alt="image" class="projects__img">
+
+                     <a href="#" class="projects__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a>
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">Normalisation</h3>
+                     <h2 class="projects__title">Database Normalisation</h2>
+
+                     <p class="projects__description">
+                        I transformed a denormalized database into Third Normal Form (3NF), 
+                        resulting in a reduction in data storage and improvement in query response time.
+                     </p>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="#" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i> Contact Me
+                     </a>
+                  </div>
+               </article>
+
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="assets/img/NLP.jpg" alt="image" class="projects__img">
+
+                     <a href="#" class="projects__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a>
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">Website</h3>
+                     <h2 class="projects__title">AI Powered Website</h2>
+
+                     <p class="projects__description">
+                        Leveraging Python and AWS, I developed a serverless portfolio website 
+                        with integrated Natural Language Processing (NLP). 
+                        This technology enables the website to automate personalized email responses 
+                        by intelligently analyzing user messages. Reach out through the website, 
+                        and experience intelligent interactions.
+                     </p>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="https://main.dt30ld539uwl1.amplifyapp.com/" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i> View
+                     </a>
+                  </div>
+               </article>
+
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="assets/img/dna.jpg" alt="image" class="projects__img">
+
+                     <a href="#" class="projects__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a>
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">Python</h3>
+                     <h2 class="projects__title">Python Genetic Code Validation</h2>
+
+                     <p class="projects__description">
+                        Using Python, I designed and implemented RNA code validation 
+                        and complementary strand generation functions, 
+                        reducing manual validation time and 
+                        ensuring accuracy in identifying valid RNA codes.
+                     </p>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="#" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i> Contact Me
+                     </a>
+                  </div>
+               </article>
+            </div>
+         </section>
+
+         <!--==================== CONTACT ====================-->
+         <section class="contact section" id="contact">
+            <div class="contact__container grid">
+               <div class="contact__data">
+                  <h2 class="section__title-2">
+                     <span>Contact Me.</span>
+                  </h2>
+
+                  <p class="contact__description-1">
+                     I am committed to reviewing every email. 
+                     Feel free to send any message, and I will respond promptly. 
+                     Your communication is important to me.
+                  </p>
+
+                  <p class="contact__description-2">
+                     I need your <b>Name</b> and <b>Email Address</b>, but 
+                     you will not receive any message other than my response to your email.
+                  </p>
+
+                  <div class="geometric-box"></div>
+               </div>
+
+               <div class="contact__mail">
+                  <h2 class="contact__title">
+                     Send Me A Message
+                  </h2>
+
+                  <form action="" class="contact__form" id="contact-form">
+                     <div class="contact__group">
+                        <div class="contact__box">
+                           <input type="text" name="user_name" class="contact__input" id="name" required placeholder="First Name">
+                           <label for="name" class="contact__label">First Name</label>
+                        </div>
+
+                        <div class="contact__box">
+                           <input type="email" name="user_email" class="contact__input" id="email" required placeholder="Email Address">
+                           <label for="email" class="contact__label"></label>
+                        </div>
+                     </div>
+
+                     <div class="contact__box">
+                        <input type="text" name="user_subject" class="contact__input" id="subject" required placeholder="Subject">
+                        <label for="subject" class="contact__label">Subject</label>
+                     </div>
+
+                     <div class="contact__box contact__area">
+                        <textarea name="user_message" id="message" class="contact__input" required placeholder="Message"></textarea>
+                        <label for="message" class="contact__label">Message</label>
+                     </div>
+
+                     <p class="contact__message" id="contact-message"></p>
+
+                     <button type="submit" class="contact__button button">
+                        <i class="ri-send-plane-line"></i> Send Message
+                     </button>
+                  </form>
+               </div>
+
+               <div class="contact__social">
+                  <img src="assets/img/curved-arrow.svg" alt="" class="contact__social-arrow">
+
+                  <div class="contact__social-data">
+                     <div>
+                        <p class="contact__social-description-1">
+                           Does not send emails
+                        </p>
+
+                        <p class="contact__social-description-2">
+                           Write me on my social networks
+                        </p>
+                     </div>
+
+                     <div class="contact__social-links">
+                        <a href="https://www.linkedin.com/in/omotola-olasope/" target="_blank" class="contact__social-link">
+                           <i class="ri-linkedin-box-line"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/omotolaolasope/" target="_blank" class="contact__social-link">
+                           <i class="ri-instagram-line"></i>
+                        </a>
+
+                        <a href="https://www.twitter.com/OmotolaOlasope" target="_blank" class="contact__social-link">
+                           <i class="ri-twitter-line"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <ul class="footer__links">
+               <li>
+                  <a href="#home" class="footer__link">Home</a>
+               </li>
+
+               <li>
+                  <a href="#about" class="footer__link">About</a>
+               </li>
+
+               <li>
+                  <a href="#projects" class="footer__link">Projects</a>
+               </li>
+            </ul>
+
+            <span class="footer__copy">
+               &#169; All Rights Reserved By 
+               <a href="https://www.linkedin.com/in/omotola-olasope/">Omotola Olasope.</a>
+            </span>
+         </div>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-s-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="assets/js/scrollreveal.min.js"></script>
+      
+      <!--=============== EMAIL JS ===============-->
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
 </html>
